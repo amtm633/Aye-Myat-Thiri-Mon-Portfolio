@@ -1,0 +1,121 @@
+html{
+    background-color:#FFF5E4 ;
+}
+.whole{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+   
+}
+
+.title{
+    text-align: center;
+    color: #E97777;
+  
+}
+.title h1{
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+}
+.title p{
+    padding-top:10px;
+}
+.container{
+margin:20px 45px;
+display:flex;
+
+    justify-content: space-between;
+    text-align: center;
+}
+.container .icon{ 
+    width:180px;
+    padding:30px 50px;  
+    text-align: center;
+    font-size: 15px;
+    color:#E97777;
+    border:1px solid  transparent;
+   margin:10px;
+   border-radius:10px;
+   box-shadow:  -4px -2px 40px -19px rgba(0,0,0,0.2);
+}
+.container .icon:hover{
+ transform:scale(1.008)   
+}
+.container .icon i{
+    font-size: 40px;
+}
+.container .icon p{
+    font-size: 15px;
+}
+.container .icon a{
+    text-decoration: none;
+    color:#FFE3E1;
+}
+
+.button{
+    background: #E97777;
+    margin:auto;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 45px;
+    margin-bottom:30px;
+}
+.button:hover{
+    background-color: #d66767;
+  }
+  .btn {
+    background: #E97777;
+    margin:auto;
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+.btn a{
+    text-decoration: none;
+    color:#FFE3E1;
+    font-size:20px;
+  }
+  .btn:hover{
+    background-color:#d66767;
+   }
+   @media (max-width: 1200px){
+    .container .icon{ 
+        width:150px;
+        padding:30px 30px;  
+        margin:10px;
+      
+    }
+   }
+   @media (max-width: 950px){
+    .container{
+        margin:20px 45px;
+        display:flex;
+        flex-direction: column;
+          
+            text-align: center;
+        }
+        .container .icon{ 
+            width:300px;
+            padding:30px 50px;  
+            margin:10px;
+          
+        }
+   }
+   @media (max-width: 490px){
+    .container .icon{ 
+        width:150px;
+        padding:30px 40px;  
+        margin:10px;
+      
+    }
+    
+.button{
+   
+    border-radius: 50px;
+    margin-top: 60px;
+    
+}
+   }

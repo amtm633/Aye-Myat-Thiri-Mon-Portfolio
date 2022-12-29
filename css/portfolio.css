@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+    
+}
+html{
+    background-color: #FFE3E1;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin:40px 20px 0 20px;
+    
+}
+.container .heading{
+width:40%;
+padding-bottom: 70px;
+color:#E97777;
+font-family: 'Times New Roman', Times, serif;
+}
+.container .heading h3{
+font-size: 50px;
+font-weight: bolder;
+padding-bottom: 15px;
+border-bottom: 3px solid #5a5959;
+}
+.container .box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.container .box .dream{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+}
+.container .box .dream img{
+    margin: 10px;
+    border-radius:10px;
+    box-shadow: 8px 13px 18px -5px rgba(0,0,0,0.06);
+} 
+
+.container .box .dream img:hover{
+    transform:scale(1.01)
+}
+
+.btn {
+    background: #E97777;
+    margin:auto;
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.btn a{
+    text-decoration: none;
+    color:#FFE3E1;
+    font-size:20px;
+  }
+  .btn:hover{
+    background-color:#d66767;
+   }
+   @media (max-width: 900px){
+    .container .box{
+        
+        flex-direction: column;
+      
+       
+    }
+    .container .box .dream{
+       
+        width:400px;
+        margin:10px 10px;
+       
+    }
+    .container .heading{
+        width:50%;
+        padding-bottom: 70px;
+        color:#E97777;
+        font-family: 'Times New Roman', Times, serif;
+        }
+    
+   }
+   @media (max-width: 600px){
+    .container .box .dream{
+       
+        width:250px;
+        margin:10px 10px;
+       
+    }
+    .container .heading{
+        width:50%;
+        padding-bottom: 70px;
+        color:#E97777;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        .container .heading h3{
+            font-size: 30px;
+            font-weight: bolder;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #5a5959;
+            }
+   }
